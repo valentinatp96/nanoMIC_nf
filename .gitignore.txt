@@ -1,0 +1,9 @@
+# Temporales de Nextflow
+work/
+.nextflow/
+.nextflow.log*
+
+# Datos pesados (No se suben a GitHub)
+results/
+Input-Data/
+qiime2_databases/
