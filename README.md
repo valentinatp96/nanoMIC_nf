@@ -47,6 +47,13 @@ El repositorio sigue las mejores prácticas de desarrollo de Nextflow (DSL2):
 ### 6. Reporte Global (MultiQC)
 * **Función:** Agregación de métricas de todos los módulos en un reporte interactivo final para validación rápida.
 
+### Información Académica
+* **Tesis:** Automatización de un flujo de trabajo para la caracterización de microbiomas asociados a corrosión  
+* **Autora:** Valentina Tapia Perdomo  
+* **Institución:** Universidad Internacional de La Rioja (UNIR)  
+* **Facultad:** Facultad de Ciencias de la Salud  
+* **Programa:** Máster Universitario en Bioinformática  
+
 ---
 
 ## Guía de Uso
@@ -62,13 +69,4 @@ nextflow run main.nf \
   --databases 'ruta/a/qiime2_databases/' \
   --outdir 'results' \
   -profile docker
-
----
-
-## Información Académica
-**Tesis:** Automatización de un flujo de trabajo para la caracterización de microbiomas asociados a corrosión  
-**Autora:** Valentina Tapia Perdomo  
-**Institución:** Universidad Internacional de La Rioja (UNIR)  
-**Facultad:** Facultad de Ciencias de la Salud  
-**Programa:** Máster Universitario en Bioinformática  
 
