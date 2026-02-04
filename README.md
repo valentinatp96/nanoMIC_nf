@@ -1,4 +1,4 @@
-# nanoMIC-nf 🧬
+# nanoMIC-nf
 
 ### Workflow de Nextflow para la caracterización de microbiomas asociados a corrosión
 
@@ -23,7 +23,10 @@ El repositorio sigue las mejores prácticas de desarrollo de Nextflow (DSL2):
 
 ---
 
-## ⚙️ Arquitectura de Módulos
+## Arquitectura de Módulos
+
+<img width="945" height="821" alt="image" src="https://github.com/user-attachments/assets/b70bf0f5-8ae0-4fe1-beba-101c1ddb57ac" />
+
 
 ### 1. Control de Calidad (QC)
 * **Herramientas:** `Fastcat`, `Cutadapt` `NanoPlot`.
@@ -62,6 +65,7 @@ nextflow run main.nf \
   --databases 'ruta/a/qiime2_databases/' \
   --outdir 'results' \
   -profile docker
+
 ---
 
 ## Información Académica
@@ -71,4 +75,3 @@ nextflow run main.nf \
 **Facultad:** Facultad de Ciencias de la Salud  
 **Programa:** Máster Universitario en Bioinformática  
 
----
