@@ -25,9 +25,6 @@ El repositorio sigue las mejores prácticas de desarrollo de Nextflow (DSL2):
 
 ## Arquitectura de Módulos
 
-<img width="945" height="821" alt="image" src="https://github.com/user-attachments/assets/b70bf0f5-8ae0-4fe1-beba-101c1ddb57ac" />
-
-
 ### 1. Control de Calidad (QC)
 * **Herramientas:** `Fastcat`, `Cutadapt` `NanoPlot`.
 * **Función:** Concatenación de archivos FASTQ crudos, generación de estadísticas de calidad (longitud de lectura, calidad base N50) y filtrado por umbrales de longitud.
